@@ -14,3 +14,16 @@ Create a Cosmos Blockchain called `hello`
 ```bash
 ignite scaffold chain hello
 ```
+
+Start the chain locally
+
+```bash
+cd hello
+ignite chain server
+```
+
+Create a new message type
+
+```bash
+ignite scaffold query hello --response text
+```
