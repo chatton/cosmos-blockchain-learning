@@ -19,7 +19,7 @@ Start the chain locally
 
 ```bash
 cd hello
-ignite chain server
+ignite chain serve
 ```
 
 Create a new message type
